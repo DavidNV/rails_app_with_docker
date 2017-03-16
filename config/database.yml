@@ -1,0 +1,8 @@
+default: &default
+  adapter: postgresql
+  enconding: unicode
+  host: postgres
+  username: postgres
+development:
+  <<: *default
+  database: docker_app
