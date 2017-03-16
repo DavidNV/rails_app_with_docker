@@ -6,3 +6,6 @@ default: &default
 development:
   <<: *default
   database: docker_app
+test:
+  <<: *default
+  database: docker_app
